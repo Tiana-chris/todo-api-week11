@@ -1,0 +1,5 @@
+. GET all: https://localhost:7015/api/Todo -> Received 200 OK with list of tasks.
+. POST valid: Sent JSON with title "Test" -> Received 201 Created.
+. POST invalid: Sent empty title -> Received 400 Bad Request.
+. PUT: Updated ID 1 title to "Done" -> Received 204 No Comment.
+. DELETE: Deleted ID 1 -> Received 204 No Content.
