@@ -1,4 +1,4 @@
-﻿namespace TODO_API_WEEK11.Responses
+﻿namespace TODO_API_WEEK11.Models 
 {
     public class ErrorResponse
     {
